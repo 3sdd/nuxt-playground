@@ -20,6 +20,12 @@
         >
           GitHub
         </a>
+
+        <ul>
+          <li v-for="(item,i) in items" :key="i">
+            <nuxt-link :to="item.to">{{item.text}}</nuxt-link>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -28,7 +34,23 @@
 <script lang="ts">
 import Vue from 'vue'
 
-export default Vue.extend({})
+export default Vue.extend({
+  data(){
+    const items=[
+      {
+        text:'is-svg',
+        to:'/libs/is-svg'
+      },
+      {
+        text:'view-json-viewer',
+        to:'/libs/view-json-viewer'
+      }
+    ]
+    return {
+      items,
+    }
+  }
+})
 </script>
 
 <style>
