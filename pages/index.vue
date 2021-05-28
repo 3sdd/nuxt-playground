@@ -48,6 +48,10 @@ export default Vue.extend({
       {
         text:'v-emoji-picker',
         to:'/libs/v-emoji-picker'
+      },
+      {
+        text:'performant-array-to-tree',
+        to:'/libs/performant-array-to-tree'
       }
     ]
     return {
