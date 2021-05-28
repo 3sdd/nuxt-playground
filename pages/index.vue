@@ -43,7 +43,11 @@ export default Vue.extend({
       },
       {
         text:'view-json-viewer',
-        to:'/libs/view-json-viewer'
+        to:'/libs/vue-json-viewer'
+      },
+      {
+        text:'v-emoji-picker',
+        to:'/libs/v-emoji-picker'
       }
     ]
     return {
