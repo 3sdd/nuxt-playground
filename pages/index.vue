@@ -52,6 +52,10 @@ export default Vue.extend({
       {
         text:'performant-array-to-tree',
         to:'/libs/performant-array-to-tree'
+      },
+      {
+        text:"screenlog.js",
+        to:"/libs/screenlog"
       }
     ]
     return {
