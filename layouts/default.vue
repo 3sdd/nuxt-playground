@@ -1,6 +1,11 @@
 <template>
   <div>
-    <Nuxt />
+    <div class="h-12 bg-purple-200">
+      <nuxt-link to="/" class="text-purple-600 text-bold text-xl p-2 ml-4">ホーム</nuxt-link>
+    </div>
+    <div class="w-3/4 mx-auto">
+      <Nuxt />
+    </div>
   </div>
 </template>
 
