@@ -56,6 +56,10 @@ export default Vue.extend({
       {
         text:"screenlog.js",
         to:"/libs/screenlog"
+      },
+      {
+        text:"country-code-emoji",
+        to:"/libs/country-code-emoji"
       }
     ]
     return {
