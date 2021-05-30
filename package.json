@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^3.3.5",
+    "bowser": "^2.11.0",
     "core-js": "^3.9.1",
     "country-code-emoji": "^2.3.0",
     "is-svg": "^4.3.1",

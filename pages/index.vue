@@ -60,6 +60,10 @@ export default Vue.extend({
       {
         text:"country-code-emoji",
         to:"/libs/country-code-emoji"
+      },
+      {
+        text:"bowser",
+        to:"/libs/bowser"
       }
     ]
     return {
