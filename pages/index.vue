@@ -64,6 +64,10 @@ export default Vue.extend({
       {
         text:"bowser",
         to:"/libs/bowser"
+      },
+      {
+        text:"vis-network",
+        to:"/libs/vis-network"
       }
     ]
     return {
