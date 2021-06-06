@@ -18,3 +18,8 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+
+## サイト
+
+https://3sdd.github.io/nuxt-playground/
